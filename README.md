@@ -1,8 +1,21 @@
-# portfolio-landing-page
-Personal landing page with a mini-game button and FAQ chat.
-## License
+# Portfolio Landing Page
+## Description
 
-## 🧾 License
+## Technologies Used
+
+## Features
+
+# How to Run
+
+## Exemple Output
+
+## Code Style
+
+## Author
+
+Developed by Rafael Campos as part of a public portfolio project to demonstrate clean logic and professionalism.
+
+## License
 
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for more information.
