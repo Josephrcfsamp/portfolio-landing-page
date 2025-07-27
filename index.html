@@ -1,45 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>My First website</title>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rafael's Portfolio</title>
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
 
-        <section id="about">
-            <h2>About mi</h2>
-            <div class="about-container">
-                <img src="img/rafael.jpg" alt="Profile photo" class="profile-photo">
-                <p>Hello, I am Rafael! Web development in formation.</p>
-            </div>
-        </section>
+  <!-- Header com logo e navegação -->
+   <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>This is a short description of the first project. It's about a website.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>This is a short description of the second project. It's a mobile app.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project Three</h3>
-                    <p>This is a short description of the third project. It uses JavaScript.</p>
-                </div>
-            </div>
-        </section>
+  <!-- Conteúdo principal da página -->
+  <main>
 
-        <h1>Hello world!</h1>
-        <p>This is my first website in HTML!</p>
-    </body>    
-</html> 
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <h1>Hello, I'm Rafael</h1>
+      <p>Frontend Developer | Creative Coder | Problem Solver</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate developer focused on building clean and functional web experiences.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Another short description.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out via <a href="mailto:youremail@example.com">email</a> or LinkedIn.</p>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 Rafael Costa Ferreira Sampaio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
